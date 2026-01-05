@@ -1,0 +1,7 @@
+Running: xsim.dir/FloatSqrtTB_behav/xsimk.exe -simmode gui -wdb FloatSqrtTB_behav.wdb -simrunnum 0 -socket 59811
+Design successfully loaded
+Design Loading Memory Usage: 30404 KB (Peak: 30404 KB)
+Design Loading CPU Usage: 561 ms
+Simulation completed
+Simulation Memory Usage: 31476 KB (Peak: 31476 KB)
+Simulation CPU Usage: 624 ms

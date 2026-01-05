@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:24 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Thu Nov  6 10:49:09 2025
+# Process ID         : 19984
+# Current directory  : C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.runs/synth_1
+# Command line       : vivado.exe -log FloatingSqrt.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FloatingSqrt.tcl
+# Log file           : C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.runs/synth_1/FloatingSqrt.vds
+# Journal file       : C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.runs/synth_1\vivado.jou
+# Running On         : Lenovo_LOQ_15
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12450HX
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 12
+# Host memory        : 16944 MB
+# Swap memory        : 9126 MB
+# Total Virtual      : 26071 MB
+# Available Virtual  : 15271 MB
+#-----------------------------------------------------------
+source FloatingSqrt.tcl -notrace

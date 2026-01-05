@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/ADD_SUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD_SUB
+INFO: [VRFC 10-311] analyzing module comparision
+INFO: [VRFC 10-311] analyzing module adder24
+INFO: [VRFC 10-311] analyzing module adder8
+INFO: [VRFC 10-311] analyzing module find1
+INFO: [VRFC 10-311] analyzing module kogge_stone_24bit_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/Fdivision.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatingDivision
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/mult754.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mult754
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/special_case.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module special_case
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/sqrt_exception.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sqrt_exception
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/sqrt_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatingSqrt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sim_1/new/tbsqrt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FloatSqrtTB

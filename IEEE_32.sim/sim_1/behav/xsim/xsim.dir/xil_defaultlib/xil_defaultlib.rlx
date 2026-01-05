@@ -1,0 +1,17 @@
+0.7
+2020.2
+Dec 15 2024
+09:05:09
+C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sim_1/new/division_tb.v,1762106233,verilog,,,,tb_div_top,,,,,,,,
+C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sim_1/new/tbsqrt.v,1762717577,verilog,,,,FloatSqrtTB,,,,,,,,
+C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/ADD_SUB.v,1762501374,verilog,,C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/Fdivision.v,,ADD_SUB;adder24;adder8;comparision;find1;kogge_stone_24bit_adder,,,,,,,,
+C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/Fdivision.v,1762406101,verilog,,C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/mult754.v,,FloatingDivision,,,,,,,,
+C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/div_top.v,1762106705,verilog,,C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/division.v,,div_top,,,,,,,,
+C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/division.v,1762504787,verilog,,C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/division_exception.v,,division,,,,,,,,
+C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/division_exception.v,1758793668,verilog,,C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/initial_guess.v,,division_exception,,,,,,,,
+C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/initial_guess.v,1762408681,verilog,,C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/mult754.v,,initial_guess_approx,,,,,,,,
+C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/mult754.v,1762107223,verilog,,C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/special_case.v,,mult754,,,,,,,,
+C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/special_case.v,1761822382,verilog,,C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/sqrt_exception.v,,special_case,,,,,,,,
+C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/sqrt_exception.v,1762272214,verilog,,C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/sqrt_top.v,,sqrt_exception,,,,,,,,
+C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sources_1/new/sqrt_top.v,1762506241,verilog,,C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sim_1/new/tbsqrt.v,,FloatingSqrt,,,,,,,,

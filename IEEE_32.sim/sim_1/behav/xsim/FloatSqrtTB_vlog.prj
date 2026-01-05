@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../BFloat_16.srcs/sources_1/new/ADD_SUB.v" \
+"../../../../BFloat_16.srcs/sources_1/new/Fdivision.v" \
+"../../../../BFloat_16.srcs/sources_1/new/mult754.v" \
+"../../../../BFloat_16.srcs/sources_1/new/special_case.v" \
+"../../../../BFloat_16.srcs/sources_1/new/sqrt_exception.v" \
+"../../../../BFloat_16.srcs/sources_1/new/sqrt_top.v" \
+"../../../../BFloat_16.srcs/sim_1/new/tbsqrt.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,24 @@
+Time resolution is 1 ps
+
+========= FLOATING POINT SQRT TESTBENCH (30 TEST CASES) =========
+
+T=40000 | A=0x00000000 | Expected=0.0000000 | Result=0.0000000 | overflow=0 | underflow=0 | exception=1
+T=80000 | A=0x3f800000 | Expected=1.0000000 | Result=1.0000000 | overflow=0 | underflow=0 | exception=0
+T=120000 | A=0x40000000 | Expected=1.4142135 | Result=1.4142135 | overflow=0 | underflow=0 | exception=0
+T=160000 | A=0x40800000 | Expected=2.0000000 | Result=2.0000000 | overflow=0 | underflow=0 | exception=0
+T=200000 | A=0x41100000 | Expected=3.0000000 | Result=2.9999998 | overflow=0 | underflow=0 | exception=0
+T=240000 | A=0x41c80000 | Expected=5.0000000 | Result=4.9999995 | overflow=0 | underflow=0 | exception=0
+T=280000 | A=0x42040000 | Expected=5.7445630 | Result=5.7445626 | overflow=0 | underflow=0 | exception=0
+T=320000 | A=0x42aa0000 | Expected=9.2195440 | Result=9.2195435 | overflow=0 | underflow=0 | exception=0
+T=360000 | A=0x7effffff | Expected=18440000000000000000.0000000 | Result=13043817602097348608.0000000 | overflow=0 | underflow=0 | exception=0
+T=400000 | A=0xbf800000 | Expected=-nan(ind) | Result=nan | overflow=0 | underflow=0 | exception=1
+T=440000 | A=0xc1000000 | Expected=-nan(ind) | Result=nan | overflow=0 | underflow=0 | exception=1
+T=480000 | A=0xc90fdb22 | Expected=-nan(ind) | Result=nan | overflow=0 | underflow=0 | exception=1
+T=520000 | A=0x7f800000 | Expected=inf | Result=inf | overflow=0 | underflow=0 | exception=1
+T=560000 | A=0xff800000 | Expected=-nan(ind) | Result=inf | overflow=0 | underflow=0 | exception=1
+T=600000 | A=0x7fc00000 | Expected=-nan(ind) | Result=nan | overflow=0 | underflow=0 | exception=1
+T=640000 | A=0x80000000 | Expected=0.0000000 | Result=nan | overflow=0 | underflow=0 | exception=1
+
+========= ALL 30 TEST CASES COMPLETED =========
+
+$finish called at time : 640 ns : File "C:/Users/aniru/.Xilinx/Code/Vivado/IEEE_32_FPU/BFloat_16.srcs/sim_1/new/tbsqrt.v" Line 94
