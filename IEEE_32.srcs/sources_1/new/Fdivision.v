@@ -35,7 +35,7 @@ ADD_SUB A2(.A(32'h40000000),.OP(1'b0),.B({!temp2[31],temp2[30:0]}),.out(temp3));
 mult754 M3(.A(x0),.B(temp3),.clk(clk),.RES(x1));
 
 mult754 M4(.A({1'b0,8'd126,B[22:0]}),.B(x1),.clk(clk),.RES(temp4));
-ADD_SUB A3(.A(32'h40000000),.OP(1'B0),.B({!temp4[31],temp4[30:0]}),.out(temp5));
+ADD_SUB A3(.A(32'h40000000),.OP(1'b0),.B({!temp4[31],temp4[30:0]}),.out(temp5));
 mult754 M5(.A(x1),.B(temp5),.clk(clk),.RES(x2));
 
 mult754 M6(.A({1'b0,8'd126,B[22:0]}),.B(x2),.clk(clk),.RES(temp6));
