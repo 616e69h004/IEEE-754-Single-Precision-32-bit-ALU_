@@ -89,6 +89,7 @@ wire [31:0] div_res    [0:3];
 wire [31:0] sqrt_res   [0:3];
 
 wire [3:0] addsub_done, mul_done, div_done, sqrt_done;
+wire [3:0] sqrt_overflow, sqrt_underflow, sqrt_exception;
 
 
 genvar i;
@@ -118,13 +119,25 @@ generate
             //.done(div_done[i])
         );
 
-        sqrt_top sqrt (
-            .clk(clk), .reset(reset),
+        FloatingSqrt sqrt (
+            .clk(clk),
             .A(opA),
+            .overflow(sqrt_overflow[i]),
+            .underflow(sqrt_underflow[i]),
+            .exception(sqrt_exception[i]),
             //.in_valid(valid_in && ready && (next_slot == i) && is_sqrt),
-            .Result(sqrt_res[i])
+            .result(sqrt_res[i])
             //.done(sqrt_done[i])
         );
+    end
+endgenerate
+
+generate
+    for (i = 0; i < 4; i = i + 1) begin : gen_done
+        assign addsub_done[i] = valid_in && ready && is_addsub && (next_slot == i);
+        assign mul_done[i]    = valid_in && ready && is_mul    && (next_slot == i);
+        assign div_done[i]    = valid_in && ready && is_div    && (next_slot == i);
+        assign sqrt_done[i]   = valid_in && ready && is_sqrt   && (next_slot == i);
     end
 endgenerate
 
